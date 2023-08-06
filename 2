@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Khoa Học TV</title>
+
+    <style>
+        .hot-post {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        body {
+            padding: 0 100px;
+        }
+
+        .hot-post,
+        .text-post {
+            font-family: 'Nunito', sans-serif;
+            font-size: 12px;
+        }
+
+        .text-post>p {
+            margin-top: 0;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .read-button {
+            font-family: 'Kanit', sans-serif;
+            font-weight: bold;
+            font-size: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w3-row">
+        <h1 class="w3-col m4 w3-text-green"><b>Khoa Học TV</b></h1>
+        <div class="w3-col m8 w3-bar">
+            <br>
+            <button class="w3-bar-item w3-green w3-right">Tìm kiếm</button>
+            <input class="w3-bar-item w3-right w3-leftbar w3-border-green w3-sand">
+        </div>
+    </div>
+
+    <br>
+    <div class="w3-bar w3-green">
+        <a href="#" class="w3-bar-item w3-button">Trang Chủ</a>
+        <a href="#" class="w3-bar-item w3-button">Công Nghệ</a>
+        <a href="#" class="w3-bar-item w3-button">Đời Sống</a>
+        <a href="#" class="w3-bar-item w3-button">Vũ Trụ</a>
+        <a href="#" class="w3-bar-item w3-button">Bí Ẩn</a>
+    </div>
+    <br>
+
+
+    <div class="w3-row">
+        <div class="w3-col m2">
+            <button class="w3-button" style="width:100%;">
+                <div class="w3-left-align">Công nghệ</div>
+            </button>
+            <button class="w3-button" style="width:100%;">
+                <div class="w3-left-align">Phần mềm</div>
+            </button>
+            <button class="w3-button" style="width:100%;">
+                <div class="w3-left-align">Khoa học</div>
+            </button>
+            <button class="w3-button" style="width:100%;">
+                <div class="w3-left-align">Y tế</div>
+            </button>
+            <button class="w3-button" style="width:100%;">
+                <div class="w3-left-align">Khảo cổ</div>
+            </button>
+            <button class="w3-button" style="width:100%;">
+                <div class="w3-left-align">Sinh vật</div>
+            </button>
+        </div>
+
+        <div class="w3-col m7">
+            <!--Slideshow-->
+            <div class="w3-container w3-padding-16">
+                <div class="w3-content w3-section w3-display-container" style="width:100%;">
+                    <img class="slide-frame"
+                        src="https://e.khoahoc.tv/photos/image/2023/07/21/nguoi-ngoai-hanh-tinh-650-size-650x340-znd.jpg"
+                        style="width:100%">
+                    <img class="slide-frame"
+                        src="https://e.khoahoc.tv/photos/image/2023/07/20/tuyen-duong-bo-dai-nhat-the-gioi-650-size-650x340-znd.jpg"
+                        style="width:100%">
+                    <img class="slide-frame"
+                        src="https://e.khoahoc.tv/photos/image/2023/07/19/mat-bao-650-size-650x340-znd.jpg"
+                        style="width:100%">
+                    <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+            </div>
+
+            <!--Các bài viết-->
+            <div class="w3-container w3-padding-16">
+                <!--Bài 0-->
+                <div class="w3-panel w3-card w3-white blog-post">
+                    <h3>Phát hiện kim loại tự vá lành vết nứt</h3>
+                    <div class="w3-row">
+                        <div class="w3-col m3 w3-display-container">
+                            <button class="w3-button w3-display-bottomright w3-black read-button">Đọc bài viết</button>
+                            <img src="https://e.khoahoc.tv/photos/image/2023/07/21/kim-loai-tu-va-lanh-vet-nut-200.jpg"
+                                style="width:100%;">
+
+                        </div>
+                        <div class="w3-col m9 text-post">
+                            <p class="w3-margin-left">Các nhà khoa học lần đầu tiên quan sát một kim loại tự vá lành, có
+                                thể ứng dụng trong nhiều lĩnh vực kỹ thuật từ sửa chữa cầu đường tới điện thoại di động.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w3-right text-post">15k lượt xem <i class="fa fa-eye"></i></div>
+                    <br>
+                </div>
+
+                <!--Bài 1-->
+                <div class="w3-panel w3-card w3-white blog-post">
+                    <h3>Những vùng đất "vô chủ" không quốc gia nào mong muốn</h3>
+                    <div class="w3-row">
+                        <div class="w3-col m3 w3-display-container">
+                            <button class="w3-button w3-display-bottomright w3-black read-button">Đọc bài viết</button>
+                            <img src="https://e.khoahoc.tv/photos/image/2023/07/22/vung-dat-vo-chu-200.jpg"
+                                style="width:100%;">
+
+                        </div>
+                        <div class="w3-col m9 text-post">
+                            <p class="w3-margin-left">Vẫn còn một vài nơi trên Trái đất không được tuyên bố chủ quyền
+                                bởi bất kỳ quốc gia nào.</p>
+                        </div>
+                    </div>
+                    <div class="w3-right text-post">18.5k lượt xem <i class="fa fa-eye"></i></div>
+                    <br>
+                </div>
+
+                <!--Bài 2-->
+                <div class="w3-panel w3-card w3-white blog-post">
+                    <h3>Châu chấu màu hồng hiếm gặp xuất hiện ở châu Âu</h3>
+                    <div class="w3-row">
+                        <div class="w3-col m3 w3-display-container">
+                            <button class="w3-button w3-display-bottomright w3-black read-button">Đọc bài viết</button>
+                            <img src="https://e.khoahoc.tv/photos/image/2023/07/22/chau-chau-mau-hong-200.jpg"
+                                style="width:100%;">
+
+                        </div>
+                        <div class="w3-col m9 text-post">
+                            <p class="w3-margin-left">Màu hồng xuất hiện ở châu chấu do đột biến di truyền, cũng giống
+                                như ở các loài động vật bị bạch tạng.</p>
+                        </div>
+                    </div>
+                    <div class="w3-right text-post">21.2k lượt xem <i class="fa fa-eye"></i></div>
+                    <br>
+                </div>
+
+                <!--Bài 3-->
+                <div class="w3-panel w3-card w3-white blog-post">
+                    <h3>Phát hiện hài cốt mèo quái vật có thể đã làm biến đổi con người</h3>
+                    <div class="w3-row">
+                        <div class="w3-col m3 w3-display-container">
+                            <button class="w3-button w3-display-bottomright w3-black read-button">Đọc bài viết</button>
+                            <img src="https://e.khoahoc.tv/photos/image/2023/07/22/meo-rang-kiem-200.jpg"
+                                style="width:100%;">
+
+                        </div>
+                        <div class="w3-col m9 text-post">
+                            <p class="w3-margin-left">Hai loài mèo cổ đại chưa từng được biết đến vừa được xác định ở
+                                Nam Phi, với hộp sọ to không kém gì cọp hay sư tử hiện đại cùng cặp răng nanh "quái vật"
+                                cực kỳ đáng sợ.</p>
+                        </div>
+                    </div>
+                    <div class="w3-right text-post">32.7k lượt xem <i class="fa fa-eye"></i></div>
+                    <br>
+                </div>
+
+                <!--Bài 4-->
+                <div class="w3-panel w3-card w3-white blog-post">
+                    <h3>Cá mập có thể ăn cocaine ngoài khơi Florida</h3>
+                    <div class="w3-row">
+                        <div class="w3-col m3 w3-display-container">
+                            <button class="w3-button w3-display-bottomright w3-black read-button">Đọc bài viết</button>
+                            <img src="https://e.khoahoc.tv/photos/image/2023/07/22/ca-map-200.jpg" style="width:100%;">
+
+                        </div>
+                        <div class="w3-col m9 text-post">
+                            <p class="w3-margin-left">Những loài cá mập khác nhau ở vùng biển Florida có thể tiếp xúc và
+                                tiêu thụ cocaine bị các băng nhóm buôn lậu vứt xuống nước.</p>
+                        </div>
+                    </div>
+                    <div class="w3-right text-post">32.7k lượt xem <i class="fa fa-eye"></i></div>
+                    <br>
+                </div>
+
+                <!--Bài 5-->
+                <div class="w3-panel w3-card w3-white blog-post">
+                    <h3>Ngỡ ngàng những giống chuối kì lạ và bí ẩn nhất thế giới</h3>
+                    <div class="w3-row">
+                        <div class="w3-col m3 w3-display-container">
+                            <button class="w3-button w3-display-bottomright w3-black read-button">Đọc bài viết</button>
+                            <img src="https://e.khoahoc.tv/photos/image/2017/03/21/chuoi-xanh-lam-200.jpg"
+                                style="width:100%;">
+
+                        </div>
+                        <div class="w3-col m9 text-post">
+                            <p class="w3-margin-left">Chuối đỏ, chuối hồng, chuối kẻ sọc, chuối xanh lam... được liệt
+                                vào danh sách những giống chuối kỳ lạ nhất thế giới với những hình thù và màu sắc không
+                                như bình thường.</p>
+                        </div>
+                    </div>
+                    <div class="w3-right text-post">17.7k lượt xem <i class="fa fa-eye"></i></div>
+                    <br>
+                </div>
+
+                <!--Bài 6-->
+                <div class="w3-panel w3-card w3-white blog-post">
+                    <h3>Australia phát hiện loài rắn độc mới</h3>
+                    <div class="w3-row">
+                        <div class="w3-col m3 w3-display-container">
+                            <button class="w3-button w3-display-bottomright w3-black read-button">Đọc bài viết</button>
+                            <img src="https://e.khoahoc.tv/photos/image/2023/07/21/ran-roi-sa-mac-200.jpg"
+                                style="width:100%;">
+
+                        </div>
+                        <div class="w3-col m9 text-post">
+                            <p class="w3-margin-left">Theo phóng viên tại Sydney, các nhà khoa học Australia mới đây đã
+                                phát hiện ra một loài rắn độc mới sau nhiều thập kỷ loài này bị nhầm lẫn với một loài
+                                khác.</p>
+                        </div>
+                    </div>
+                    <div class="w3-right text-post">7.6k lượt xem <i class="fa fa-eye"></i></div>
+                    <br>
+                </div>
+
+                <!--Bài 7-->
+                <div class="w3-panel w3-card w3-white blog-post">
+                    <h3>Giả thuyết về người tự bốc cháy</h3>
+                    <div class="w3-row">
+                        <div class="w3-col m3 w3-display-container">
+                            <button class="w3-button w3-display-bottomright w3-black read-button">Đọc bài viết</button>
+                            <img src="https://e.khoahoc.tv/photos/image/2022/12/28/nguoi-tu-boc-chay-200.jpg"
+                                style="width:100%;">
+
+                        </div>
+                        <div class="w3-col m9 text-post">
+                            <p class="w3-margin-left">Lịch sử hơn 300 năm qua ghi nhận hơn 200 trường hợp con người
+                                bỗng dưng bốc cháy tới chết, không hề có dấu hiệu bị thiêu bằng một nguồn nhiệt ngoài.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w3-right text-post">10.2k lượt xem <i class="fa fa-eye"></i></div>
+                    <br>
+                </div>
+
+                <!--Bài 8-->
+                <div class="w3-panel w3-card w3-white blog-post">
+                    <h3>Công nghệ táo bạo khiến chip máy tính trở nên lỗi thời</h3>
+                    <div class="w3-row">
+                        <div class="w3-col m3 w3-display-container">
+                            <button class="w3-button w3-display-bottomright w3-black read-button">Đọc bài viết</button>
+                            <img src="https://e.khoahoc.tv/photos/image/2023/07/20/tri-tue-huu-co-200.jpg"
+                                style="width:100%;">
+
+                        </div>
+                        <div class="w3-col m9 text-post">
+                            <p class="w3-margin-left">Khi trí tuệ nhân tạo đang là chủ đề "nóng" của các buổi thảo luận
+                                thì các nhà khoa học sắp ra mắt loại trí thông minh mạnh hơn AI tới 1.000 lần.</p>
+                        </div>
+                    </div>
+                    <div class="w3-right text-post">5.9k lượt xem <i class="fa fa-eye"></i></div>
+                    <br>
+                </div>
+
+                <!--Bài 9-->
+                <div class="w3-panel w3-card w3-white blog-post">
+                    <h3>Những loại nước không nên uống ngay sau khi thức dậy</h3>
+                    <div class="w3-row">
+                        <div class="w3-col m3 w3-display-container">
+                            <button class="w3-button w3-display-bottomright w3-black read-button">Đọc bài viết</button>
+                            <img src="https://e.khoahoc.tv/photos/image/2016/05/27/nuoc-dun-soi-de-lau-200.jpg"
+                                style="width:100%;">
+
+                        </div>
+                        <div class="w3-col m9 text-post">
+                            <p class="w3-margin-left">Uống nước vào buổi sáng rất tốt cho sức khỏe. Nhưng một số loại
+                                nước sẽ gây hại nếu bạn uống ngay khi vừa thức dậy.</p>
+                        </div>
+                    </div>
+                    <div class="w3-right text-post">33.5k lượt xem <i class="fa fa-eye"></i></div>
+                    <br>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="w3-col m3">
+
+            <div class="w3-border-bottom w3-border-green">Tiêu đề</div>
+            <br>
+            <div class="w3-row hot-post">
+                <div class="w3-col m3"><img src="https://e.khoahoc.tv/photos/image/2016/03/27/ma-200-size-80x80-znd.jpg"
+                        style="width:100%;"></div>
+                <div class="w3-col m9">
+                    <div class="w3-margin-left">12 dấu hiệu nhận biết ma rất đơn giản nhưng có tin được không?</div>
+                </div>
+                <br>
+            </div>
+
+            <div class="w3-row hot-post">
+                <div class="w3-col m3"><img
+                        src="https://e.khoahoc.tv/photos/image/2017/04/20/trai-dat-so-khai-200-size-80x80-znd.jpg"
+                        style="width:100%;"></div>
+                <div class="w3-col m9">
+                    <div class="w3-margin-left">Quá trình hình thành và tiến hóa của sự sống trên Trái đất</div>
+                </div>
+
+                <br>
+            </div>
+
+
+            <div class="w3-row hot-post">
+                <div class="w3-col m3"><img
+                        src="https://e.khoahoc.tv/photos/image/2015/12/04/thoi-mien-200-size-80x80-znd.jpg"
+                        style="width:100%;"></div>
+                <div class="w3-col m9">
+                    <div class="w3-margin-left">Thuật thôi miên và những bí ẩn trong thế giới tiềm thức</div>
+                </div>
+                <br>
+            </div>
+
+            <div class="w3-row hot-post">
+                <div class="w3-col m3"><img
+                        src="https://e.khoahoc.tv/photos/image/2023/07/14/khu-vuc-hinh-thanh-sao-200-size-80x80-znd.jpg"
+                        style="width:100%;"></div>
+                <div class="w3-col m9">
+                    <div class="w3-margin-left">NASA công bố hình ảnh mới chụp bằng kính viễn vọng James Webb</div>
+                </div>
+                <br>
+            </div>
+
+            <div class="w3-row hot-post">
+                <div class="w3-col m3"><img
+                        src="https://e.khoahoc.tv/photos/image/2023/07/28/khoach-khac-chao-doi-cua-hanh-tinh-200-size-80x80-znd.jpg"
+                        style="width:100%;"></div>
+                <div class="w3-col m9">
+                    <div class="w3-margin-left">Công bố hình ảnh vật thể không gian "ngàn năm có một"</div>
+                </div>
+                <br>
+            </div>
+
+            <div class="w3-row hot-post">
+                <div class="w3-col m3"><img
+                        src="https://e.khoahoc.tv/photos/image/2023/07/20/hang-son-doong-200-size-80x80-znd.jpg"
+                        style="width:100%;"></div>
+                <div class="w3-col m9">
+                    <div class="w3-margin-left">Việt Nam sở hữu hang động 3 triệu năm tuổi, đủ chứa tòa nhà trọc trời 40
+                        tầng của Mỹ</div>
+                </div>
+                <br>
+            </div>
+
+            <div class="w3-row hot-post">
+                <div class="w3-col m3"><img
+                        src="https://e.khoahoc.tv/photos/image/2023/07/28/trai-dat-co-dai-200-size-80x80-znd.jpg"
+                        style="width:100%;"></div>
+                <div class="w3-col m9">
+                    <div class="w3-margin-left">Hành tinh 1,3 tỉ tuổi vỡ làm nhiều mảnh, sự sống trỗi dậy</div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="w3-container w3-green w3-center w3-padding-24">
+        Website tổng hợp tin tức khoa học. Được vận hành bởi NewDev.
+    </footer>
+
+    <script>
+        // Chức năng Slideshow :
+        var slideIndex = 0;
+        autoSlideShow();
+        function autoSlideShow() {
+            var i;
+            var x = document.getElementsByClassName("slide-frame");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) { slideIndex = 1 }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(autoSlideShow, 1500); // Bản thân hàm này sẽ tự lặp lại sau 1.5 giây
+        }
+
+
+        /*   BÀI HỌC HÔM NAY
+       math.random()=>ngẫu nhiên từ 0-1
+       math.random() * 10 =>ngẫu nhiên từ 0-10
+       math.floor(8.9) = 8 => làm tròn xuống 
+       math.round(8.5) = 9 =>làm tròn theo toán học 
+       math.ceil(8.1) = 9 => làm tròn lên
+       biến mảng (Array) là ngoặc vuông
+       return sẽ dừng hẳn vòng lặp
+       */
+
+        // hàm hỗ trợ : kiểm tra xem có trùng trong biến mảng hay không
+        function kiemtra(K, Y) {
+            for (phantu of Y) {
+                if (phantu == K) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        var deptrai = [];
+
+
+
+        for (var lap = 0; lap < 4; lap++) { // lap < 4 hoặc <=3  
+            var A = Math.floor(Math.random() * 9);
+            while (kiemtra(A, deptrai)) {
+                A = Math.floor(Math.random() * 9);
+            }
+            deptrai.push(A);
+        }
+
+
+        /// tất cả bài viết ẩn đi
+        var baiviet = document.getElementsByClassName("blog-post");
+        for (var i = 0; i < 10; i++) {
+            baiviet[i].style.display = "none";
+        }
+        // hiện lên các bài viết ngẫu nhiên
+        for (var i = 0; i < 4; i++) {
+            baiviet[deptrai[i]].style.display = "block";
+
+        }
+
+
+        // tiêu đề
+        // hàm hỗ trợ
+        function kt(K, T) {
+            for (Teo of T) {
+                if (Teo == K) {
+                    return true;
+
+                }
+            }
+            return false;
+        }
+        var C = [];
+
+        for (var i = 0; i <= 2; i++) {
+            var B = Math.floor(Math.random() * 6);
+            while (kt(B, C)) {
+                B = Math.floor(Math.random() * 6);
+            }
+            C.push(B);
+        }
+
+        // ẩn
+        var tieude = document.getElementsByClassName("hot-post");
+        for (var deman = 0; deman <= 6; deman++) {
+            tieude[deman].style.display = "none";
+        }
+        // hiện
+        for (var demhien = 0; demhien <= 2; demhien++) {
+            tieude[C[demhien]].style.display = "block";
+        }
+
+    </script>
+</body>
+
+</html>
